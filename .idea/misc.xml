@@ -3,15 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/DAM2/Mov/AndroidProjects/PM/app/src/main/res/drawable-v24/button_rounded.xml" value="0.2203125" />
+        <entry key="..\:/DAM2/Mov/AndroidProjects/PM/app/src/main/res/drawable-v24/pulsaboton.xml" value="0.10277777777777777" />
+        <entry key="..\:/DAM2/Mov/AndroidProjects/PM/app/src/main/res/drawable/btn_login.xml" value="0.2203125" />
         <entry key="..\:/DAM2/Mov/AndroidProjects/PM/app/src/main/res/drawable/shape.xml" value="0.14290540540540542" />
         <entry key="..\:/DAM2/Mov/AndroidProjects/PM/app/src/main/res/drawable/shape_2.xml" value="0.2483108108108108" />
+        <entry key="..\:/DAM2/Mov/AndroidProjects/PM/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
         <entry key="..\:/DAM2/Mov/AndroidProjects/PM/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/DAM2/Mov/AndroidProjects/PM/app/src/main/res/layout/activity_pantalla_principal.xml" value="0.1" />
         <entry key="..\:/DAM2/Mov/AndroidProjects/PM/app/src/main/res/layout/app_bar_main.xml" value="0.33" />
         <entry key="..\:/DAM2/Mov/AndroidProjects/PM/app/src/main/res/layout/content_main.xml" value="0.25" />
         <entry key="..\:/DAM2/Mov/AndroidProjects/PM/app/src/main/res/layout/fragment_gallery.xml" value="0.23783783783783785" />
         <entry key="..\:/DAM2/Mov/AndroidProjects/PM/app/src/main/res/layout/fragment_home.xml" value="0.5" />
         <entry key="..\:/DAM2/Mov/AndroidProjects/PM/app/src/main/res/layout/fragment_slideshow.xml" value="0.23783783783783785" />
         <entry key="..\:/DAM2/Mov/AndroidProjects/PM/app/src/main/res/layout/nav_header_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/DAM2/Mov/AndroidProjects/PM/app/src/main/res/layout/pantallainicio.xml" value="0.20416666666666666" />
         <entry key="..\:/DAM2/Mov/AndroidProjects/PM/app/src/main/res/menu/activity_main_drawer.xml" value="0.36666666666666664" />
         <entry key="..\:/DAM2/Mov/AndroidProjects/PM/app/src/main/res/menu/main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/vic_t/Desktop/Carpeta/Eclipse/DispositivosMoviles/PYM/app/src/main/res/layout/fragment_home.xml" value="0.6666666666666666" />
