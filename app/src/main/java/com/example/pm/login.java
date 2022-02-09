@@ -42,7 +42,7 @@ public class login extends AppCompatActivity {
     }
     public void validacion(){
         if(!DNI.isEmpty() && !password.isEmpty()){
-            if(DNI.equals("123456789B")&&password.equals("BANCOPYM")){
+            if(DNI.equals("admin")&&password.equals("admin")){
 
                 startActivity(new Intent(login.this,MainActivity.class));
 
