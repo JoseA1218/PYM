@@ -3,6 +3,7 @@ package com.example.pm;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
@@ -12,6 +13,23 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class login extends AppCompatActivity {
+
+    static Button bt1,bt2;
+    String DNI="";
+    String password="";
+    EditText etDNI,etPasswd;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login);
+        bt1= (Button) findViewById(R.id.button);
+        bt2=(Button) findViewById(R.id.button2);
+        etDNI=(EditText) findViewById(R.id.etDNI);
+        etPasswd=(EditText) findViewById(R.id.etPasswd);
+
+    }
+
     public void botonEnviar(View v){
         //Animation animation= AnimationUtils.loadAnimation(this,R.anim.fade);
         //bt1.startAnimation(animation);
@@ -50,21 +68,5 @@ public class login extends AppCompatActivity {
                 bt.animate().scaleX(1f).scaleY(1f);
             }
         });
-    }
-
-    static Button bt1,bt2;
-    String DNI="";
-    String password="";
-    EditText etDNI,etPasswd;
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-        /*bt1= (Button) findViewById(R.id.button);
-        bt2=(Button) findViewById(R.id.button2);
-        etDNI=(EditText) findViewById(R.id.etDNI);
-        etPasswd=(EditText) findViewById(R.id.etPasswd);*/
-
     }
 }
