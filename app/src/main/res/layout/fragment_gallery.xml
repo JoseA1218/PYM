@@ -7,4 +7,87 @@
     tools:context=".ui.gallery.GalleryFragment">
 
 
+    <LinearLayout
+        android:id="@+id/linearLayout12"
+        android:layout_width="240dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="364dp"
+        android:layout_marginEnd="84dp"
+        android:background="@drawable/log_log"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/foto1"
+            android:layout_width="364dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            android:foregroundGravity="center_horizontal"
+            app:srcCompat="@drawable/develowlpers" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="360dp"
+        android:layout_height="154dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="358dp"
+            android:layout_height="46dp"
+            android:text="Banco PYM trata sobre y ti y tu comodidad."
+            android:textAlignment="center"
+            android:textColor="#CAB077"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="358dp"
+            android:layout_height="wrap_content"
+            android:text="Banco PYM se fundó en 1954. Cada vez somos una comunidad más grande gracias a la confianza de nuestros usuarios. Lo mejor de todo es que !La Comunidad decide gran parte de la distribución de la aplicación para mantenerla a su medida¡"
+            android:textAlignment="center"
+            android:textColor="#CAB077" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="84dp"
+        android:background="@drawable/log_log"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/foto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/logo" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
