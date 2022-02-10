@@ -13,13 +13,12 @@ public class pantallaInicio extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pantallainicio);
 
-        startActivity(new Intent(pantallaInicio.this, login.class));
-        /*Handler handler = new Handler();
+        Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             public void run() {
                 // acciones que se ejecutan tras los milisegundos
-                startActivity(new Intent(pantallaInicio.this, loginActivity.class));
+                startActivity(new Intent(pantallaInicio.this, login.class));
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);            }
-        }, 3000);*/
+        }, 3000);
     }
 }
